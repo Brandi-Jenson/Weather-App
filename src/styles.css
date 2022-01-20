@@ -9,6 +9,10 @@ button {
   background: #212529;
   color: #fff;
 }
+footer {
+  text-align: center;
+  text-decoration: none;
+}
 .container {
   background: radial-gradient(
     circle at 0.7% 1%,
