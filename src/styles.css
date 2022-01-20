@@ -1,0 +1,39 @@
+body {
+  margin-top: 40px;
+  font-family: "Bree Serif", serif;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  background: #212529;
+  color: #fff;
+}
+.container {
+  background: radial-gradient(
+    circle at 0.7% 1%,
+    rgb(215, 248, 247) 0%,
+    rgb(102, 188, 239) 100.2%
+  );
+  padding: 20px;
+  border-radius: 8px;
+}
+.current-temp {
+  font-size: 40px;
+  margin-left: 80px;
+}
+.current-conditions {
+  font-size: 25px;
+}
+.day {
+  text-decoration: underline;
+}
+.days-table {
+  border: 1px solid;
+  border-radius: 4px;
+  background: #fff;
+}
+
+#fahrenheit-link {
+  color: #212529;
+}
