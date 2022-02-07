@@ -9,17 +9,14 @@ button {
   background: #212529;
   color: #fff;
 }
-footer {
-  text-align: center;
-  text-decoration: none;
-}
+
 .container {
   background: radial-gradient(
     circle at 0.7% 1%,
     rgb(215, 248, 247) 0%,
     rgb(102, 188, 239) 100.2%
   );
-  padding: 20px;
+  padding: 40px;
   border-radius: 8px;
 }
 .current-temp {
@@ -43,4 +40,25 @@ footer {
 }
 #celsius-link {
   color: #212529;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+}
+.weather-forecast-temperatures {
+  font-size: 16px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+#footer {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
 }
